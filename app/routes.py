@@ -1,7 +1,7 @@
 from app import app
 from flask import render_template, redirect, url_for, flash
 from app.models import Item, User
-from app.form import RegisterForm
+from app.form import RegisterForm, LoginForm
 from app import db
 
 @app.route("/")
