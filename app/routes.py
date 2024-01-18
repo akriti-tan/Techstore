@@ -1,7 +1,7 @@
 from app import app
-from app import render_template, redirect, url_for, flash, request
+from flask import render_template, redirect, url_for, flash, request
 from app.models import Item, User
-from app.forms import RegisterForm, LoginForm, PurchaseItemForm
+from app.form import RegisterForm, LoginForm, PurchaseItemForm
 from app import db
 from flask_login import login_user, logout_user, login_required, current_user
 
